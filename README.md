@@ -8,4 +8,4 @@
 
 그와 동시에 어떤 버튼을 누르면 다시 이미지가 보입니다.
 
-![123](https://user-images.githubusercontent.com/96367152/168592144-df8cd06f-379b-444e-bc93-839ee45a2224.png)
+![제목 없음-1](https://user-images.githubusercontent.com/96367152/168595059-d1c4e52a-e1cf-4b0b-82b0-b514c97d9f90.png)
