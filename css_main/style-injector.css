@@ -1,7 +1,13 @@
 #sizer {
   display:block;
   font-weight:bold;
-  font-size: 15px;
+  font-size: 13px;
+  color: #3b4890;
+  outline: solid 2px #3b4890;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 .write_div div img:not(.written_dccon) {
   display:none;
