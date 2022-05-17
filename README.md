@@ -1,6 +1,4 @@
-[![128](https://user-images.githubusercontent.com/96367152/168592092-e7be7cb6-c391-4718-ac07-cfe27ca370a2.png)](https://chrome.google.com/webstore/detail/safedc/hhjjgafnfmpnmebmigdiiifhnealfdli)
-
-위 아이콘을 클릭하면 크롬 웹 스토어로 이동합니다.
+![128](https://user-images.githubusercontent.com/96367152/168592092-e7be7cb6-c391-4718-ac07-cfe27ca370a2.png)
 # SafeDC
 디시에서 이미지 테러하는 나쁜 친구들을 막기 위해 만든 확장프로그램.
 
