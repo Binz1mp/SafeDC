@@ -1,6 +1,6 @@
 body {
-  width: 500px;
-  height: 250px;
+  width: 125px;
+  height: 80px;
   text-align: center;
 }
 .popcat {
@@ -18,9 +18,4 @@ button {
   margin: 10px;
   border: none;
   border-radius: 2px;
-}
-
-button.current {
-  box-shadow: 0 0 0 2px white,
-              0 0 0 4px black;
 }

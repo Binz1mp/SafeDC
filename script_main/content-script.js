@@ -6,11 +6,15 @@ chrome.storage.sync.get('isSafeDCOn', storage => {
         let gallviewcontents = $('.gallview_contents');
         let dccons = $('.written_dccon');
         let sizerbutton = $('<button id = "sizer">SafeDC</button>');
-
+        let images = $('img');
+        let videos = $('video')
+        let dcimageStatusImage = dcpost.find(images).not(dccons);
+        let dcimageStatusVideo = dcpost.find(videos).not(dccons);
+        dcpost.find(videos).not(dccons).removeAttr("style");
         gallviewcontents.prepend(sizerbutton);
         sizerbutton.on("click", function () {
-          dcpost.find($('img')).not(dccons).toggleClass('imgThumbnail')
-          dcpost.find($('video')).not(dccons).toggleClass('imgThumbnail')
+          dcimageStatusImage.toggleClass('imgThumbnail');
+          dcimageStatusVideo.toggleClass('imgThumbnail');
         });
       }
     });
