@@ -10,14 +10,21 @@
   padding-right: 5px;
 }
 .write_div div img:not(.written_dccon) {
-  display:none;
+  max-width: 5%;
+  /* display:none; */
 }
 .write_div div video:not(.written_dccon) {
-  display:none;
+  max-width: 5%;
+  /* display:none; */
 }
 .write_div p img:not(.written_dccon) {
-  display:none;
+  max-width: 5%;
+  /* display:none; */
 }
 .write_div p video:not(.written_dccon) {
-  display:none;
+  max-width: 5%;
+  /* display:none; */
+}
+.imgThumbnail {
+  max-width: 5% !important;
 }

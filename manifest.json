@@ -11,7 +11,13 @@
       "js": ["jquery-3.6.0.js", "script_main/content-script.js"],
       "css" : ["css_main/style-injector.css"]
     }
-],
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "storage"
+  ],
   "action": {
     "default_popup": "popup.html",
     "default_icon": {
