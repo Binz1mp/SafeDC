@@ -11,11 +11,15 @@ chrome.storage.sync.get('isSafeDCOn', storage => {
         let dcimageStatusImage = dcpost.find(images).not(dccons);
         let dcimageStatusVideo = dcpost.find(videos).not(dccons);
         dcpost.find(videos).not(dccons).removeAttr("style");
-        gallviewcontents.prepend(sizerbutton);
-        sizerbutton.on("click", function () {
-          dcimageStatusImage.toggleClass('imgThumbnail');
-          dcimageStatusVideo.toggleClass('imgThumbnail');
-        });
+        if (dcimageStatusImage.length > 0 || dcimageStatusVideo.length > 0) {
+          gallviewcontents.prepend(sizerbutton);
+          sizerbutton.on("click", function () {
+            dcimageStatusImage.toggleClass('imgThumbnail');
+            dcimageStatusVideo.toggleClass('imgThumbnail');
+          });
+        } else {
+          console.log("업서요");
+        }
       }
     });
   }
