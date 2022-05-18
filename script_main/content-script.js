@@ -17,8 +17,6 @@ chrome.storage.sync.get('isSafeDCOn', storage => {
             dcimageStatusImage.toggleClass('imgThumbnail');
             dcimageStatusVideo.toggleClass('imgThumbnail');
           });
-        } else {
-          console.log("업서요");
         }
       }
     });
