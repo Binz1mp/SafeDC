@@ -3,7 +3,7 @@
 
   "name": "SafeDC",
   "description": "디시 게시글의 이미지를 썸네일화해줍니다.",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "manifest_version": 3,
   "content_scripts": [
     {
