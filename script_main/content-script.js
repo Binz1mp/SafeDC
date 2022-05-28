@@ -7,7 +7,7 @@ chrome.storage.sync.get('isSafeDCOn', storage => {
         let dccons = $('.written_dccon');
         let sizerbutton = $('<button id = "sizer">SafeDC</button>');
         let images = $('img');
-        let videos = $('video')
+        let videos = $('video');
         let dcimageStatusImage = dcpost.find(images).not(dccons);
         let dcimageStatusVideo = dcpost.find(videos).not(dccons);
         dcpost.find(videos).not(dccons).removeAttr("style");
