@@ -12,14 +12,14 @@
 .write_div div img:not(.written_dccon), .write_div div video:not(.written_dccon),
 .write_div p img:not(.written_dccon), .write_div p video:not(.written_dccon) {
   max-width: 7.5%;
-  filter: blur(2.5px), invert(100%);
+  filter: blur(2.5px) invert(100%);
 }
 .write_div div img:not(.written_dccon):hover, .write_div div video:not(.written_dccon):hover,
 .write_div p img:not(.written_dccon):hover, .write_div p video:not(.written_dccon):hover {
   max-width: 25%;
-  filter: blur(2.5px), invert(100%);
+  filter: blur(2.5px) invert(100%);
 }
 .imgThumbnail {
-  filter: blur(0px), invert(100%) !important;
+  filter: blur(0px) invert(100%) !important;
   max-width: 100% !important;
 }
