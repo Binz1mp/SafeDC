@@ -25,7 +25,7 @@ a {
   transition: all ease 0.5s;
 }
 #mainlogo:hover {
-  transform: rotate(720deg);
+  transform: rotate(360deg);
 }
 .author a {
   color: #599bd8;
