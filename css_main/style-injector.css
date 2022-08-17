@@ -13,11 +13,12 @@ div.write_div img:not(.written_dccon),
 div.write_div video:not(.written_dccon) {
   max-width: 7.5%;
   filter: blur(2.5px);
+  transition: all 0.25s;
 }
 div.write_div img:not(.written_dccon):hover,
 div.write_div video:not(.written_dccon):hover {
-  max-width: 25%;
-  filter: blur(2.5px);
+  max-width: 40%;
+  filter: blur(0px);
 }
 .imgThumbnail {
   filter: blur(0px) !important;
@@ -27,10 +28,11 @@ div.write_div video:not(.written_dccon):hover {
 div.write_div .safeDCdark {
   max-width: 7.5%;
   filter: blur(2.5px) invert(100%) !important;
+  transition: all 0.25s;
 }
 div.write_div .safeDCdark:hover {
-  max-width: 25%;
-  filter: blur(2.5px) invert(100%) !important;
+  max-width: 40%;
+  filter: blur(0px) invert(100%) !important;
 }
 .imgThumbnail-safeDCdark {
   max-width: 100% !important;
