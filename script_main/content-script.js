@@ -3,8 +3,9 @@ let gallviewcontents = $('.gallview_contents');
 let dccons = $('.written_dccon');
 let sizerbutton = $('<button id = "sizer">SafeDC</button>');
 let images = $('img');
+let ogimages = $('.og-img');
 let videos = $('video');
-let dcimageStatusImage = dcpost.find(images).not(dccons);
+let dcimageStatusImage = dcpost.find(images).not(dccons).not(ogimages);
 let dcimageStatusVideo = dcpost.find(videos).not(dccons);
 if (window.location.href.indexOf("board/view") > -1) {
   if (dcimageStatusImage.length > 0 || dcimageStatusVideo.length > 0) {

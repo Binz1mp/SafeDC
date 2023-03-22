@@ -9,13 +9,13 @@
   padding-left: 3px;
   padding-right: 3px;
 }
-div.write_div img:not(.written_dccon),
+div.write_div img:not(.written_dccon):not(.og-img),
 div.write_div video:not(.written_dccon) {
   max-width: 7.5%;
   filter: blur(2.5px);
   transition: all 0.25s;
 }
-div.write_div img:not(.written_dccon):hover,
+div.write_div img:not(.written_dccon):not(.og-img):hover,
 div.write_div video:not(.written_dccon):hover {
   max-width: 40%;
   filter: blur(0px);
